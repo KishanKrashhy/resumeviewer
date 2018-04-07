@@ -42,7 +42,6 @@ class App extends Component {
     console.log(this.state.resumeData);
     return (
       <div className="App">
-        <h1>
           <Header  data={this.state.resumeData.main}  />
           <About data={this.state.resumeData.main} />
           <Resumeview data={this.state.resumeData.resume}/>
@@ -50,7 +49,6 @@ class App extends Component {
           <Testomonials data={this.state.resumeData.testimonials}/>
           <Contact data={this.state.resumeData.main}/>
           <Footer data={this.state.resumeData.main}/>
-        </h1>
       </div>
     );
   }
